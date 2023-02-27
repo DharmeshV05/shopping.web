@@ -1,0 +1,72 @@
+.Cart {
+    margin: 100px auto;
+    width: 800px;
+    text-align: center;
+}
+
+.ItemInfor h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.Item {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.Detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+
+.Thumbnail {
+    height: 100%;
+}
+
+
+.Summary {
+    text-align: right;
+}
+
+.Summary > * {
+    margin-bottom: 16px;
+}
+
+.Functional {
+    margin-right: 16px;
+}
+
+.Functional input{
+    padding: 3px;
+    width: 4em;
+    margin-left: 5px;
+    font-size: 11pt;
+}
+
+.Functional label {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 420px) {
+    .Detail {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+} 
+
+@media only screen and (max-width: 1000px) {
+    .Cart {
+        width: 90%;
+    }
+} 
