@@ -2,6 +2,7 @@
   "name": "shopping.web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/DharmeshV05/shopping.web",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
